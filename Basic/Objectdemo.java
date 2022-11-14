@@ -11,7 +11,7 @@ public class Objectdemo {
     public static void main(String[] args) {
         
     
-        Calc obj = new Calc();
+        Calc obj = new Calc(); //call the constructor or creating a object
         obj.n = 76;
         obj.m = 53;
 
