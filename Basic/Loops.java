@@ -8,9 +8,7 @@ public class Loops {
         }
         //do while
         int n = 7;
-        do{
-            System.out.println("Hello");
-        }while(i <= 6){
+        while(i <= 6){
             i += 1;
             System.out.println("hello");
         }

@@ -1,4 +1,4 @@
-public class Hars {
+public class Distinctelemet {
     public static void main(String[] args){
         int[] arr = new int[]{3, 4, 6, 4, 5};
         int count = 1;

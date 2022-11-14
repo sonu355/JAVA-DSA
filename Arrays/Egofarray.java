@@ -11,14 +11,14 @@ public class Egofarray{
             int n = arr.length;
             System.out.println(n);
             // System.out.println(7 % 6);
-             //System.out.println(4 % 4);
+            // System.out.println(4 % 4);
 
-                for(int i = 0; i < 2 * n ; i++){
-                    arrlist.add(arr[i % n]);
-                    // System.out.println("ne T");
-                    // System.out.println(i);
-                    System.out.print +(i % n);
-                }
+            for(int i = 0; i < 2 * n ; i++){
+                arrlist.add(arr[i % n]);
+                // System.out.println("ne T");
+                // System.out.println(i);
+                System.out.print(i % n);
+            }
             System.out.println(arrlist);
     }
 }
