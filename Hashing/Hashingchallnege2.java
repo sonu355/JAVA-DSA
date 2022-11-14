@@ -1,5 +1,4 @@
 import java.util.HashSet;
-import java.util.Set;
 
 public class Hashingchallnege2 {
     public static int Union(int a[], int b[]){
