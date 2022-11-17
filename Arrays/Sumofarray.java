@@ -18,12 +18,12 @@ public class Sumofarray {
     }
 
     public static void main(String[] args) {
-        Sol abc = new Sol();
+        Sol solObject = new Sol();
         int[] arr = new int[]{1,2,3,9,8};
-        int[] xyz = abc.getSoln(arr);
+        int[] result = solObject.getSoln(arr);
         System.out.print("{");
-        for(int i = 0; i < xyz.length; i++){
-            System.out.print(xyz[i] + ",");
+        for(int i = 0; i < result.length; i++){
+            System.out.print(result[i] + ",");
         }
         System.out.println("}");
     }
