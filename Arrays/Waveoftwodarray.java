@@ -1,29 +1,28 @@
-import java.util.Scanner;
 
 public class Waveoftwodarray{
     public static void main(String[] args) {
-        Scanner scn =  new Scanner(System.in);
-        int m = scn.nextInt();
-        int n = scn.nextInt();
-        
-        int[][] arr = new int[m][n];
-        for(int i = 0; i < arr.length; i++){
-            for(int j = 0; j < arr[0].length; j++);{
-                arr[i][j] = scn.nextInt();           
-            }
+        int[][] num = {
+                         {11, 12, 13, 14},
+                         {21, 22, 23, 24},
+                         {31, 32, 33, 34},
+                         {41, 42, 43, 44} 
+                                            };
+        int x = 34;
+
+        for(int i = 0; i < num.length; i++){
+           for(int j = 0; j < num[0].length; j++){
+            System.out.print(num[i][j]);
+           }
+           System.out.println(" ");
         }
-        for(int j = 0; j < arr[0].length; j++){
-            if (j % 2 == 0) {
-                for(int i = 0; i < arr.length; i++){
-                    System.out.println(arr[i][j]);
+
+        for(int i = 0; i < num.length; i++){
+            for(int j = 0; j < num[0].length; j++){
+                if (num[i][j] == x) {
+                    System.out.println("number found at" + i + " " + j);
+                    break;
                 }
-            }
-            else {
-                for(int i = arr.length - 1; i <= 0; i--){
-                    System.out.println(arr[i][j]);
-                }
-            }
-            
+            }       
         }
     }
 }
