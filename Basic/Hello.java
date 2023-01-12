@@ -1,13 +1,18 @@
-class Hello{
-    public static void main (String[] args){  
-    int n = 5;
-    int a = 0;
-    int d = 1;
-    (int i = 0; i <= n; i++){
-          System.err.println(a);
-          int c = a + d;
-          a = d;
-          d = c;
+public class Hello{
+    public static void main(String[] args) {
+        System.out.println("Hello HArshal");
+        int n = 6426578;
+        int nod = 0;
+        int temp = n;
+            while(temp != 0){
+                temp = temp / 10;
+                nod++;
+            }
+            System.out.println(nod);
+        while(n != 0){
+            int q = n % 10;
+            n = n / 10;
+            System.out.println(q);
         }
-    } 
+    }
 }
