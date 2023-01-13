@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Twoarr {
+public class Printarr {
     public static void main(String[] args) {
         int[][] arr = new int[][]{ {1, 2, 3, 4},
                                    {4, 5, 6, 8},
