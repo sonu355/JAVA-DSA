@@ -29,9 +29,8 @@ public class Function{
         int factorial = 1;
         
         for(int i = x; i >= 1; i--){
-         factorial = factorial * i;
+         factorial = factorial * i;  
         }
-
         System.out.println("Factorial of a number is : "+factorial);
         return;
     }
@@ -39,7 +38,8 @@ public class Function{
     public static void main (String[] args){
         Scanner scn = new Scanner(System.in);
         int x = scn.nextInt();
-         printFact(x);
+       // System.out.println("Factorial of a number is : " + printFact(x));
+       printFact(x);
          scn.close();
     }
 }
