@@ -10,18 +10,23 @@ public class Arraylist{
       List<Integer> numberr = new LinkedList<>();
 
         numberr.add(40);
-        numberr.add(10);
+        numberr.add(10);  System.out.println(numberr);
+
+        System.out.println(numberr.contains(70));
+
+        System.out.println(numberr.get(2));
+
         numberr.add(30);
         numberr.add(50);
         numberr.add(20);
 
         System.out.println(numberr);
             numberr.add(4, 60);
-        System.out.println(numberr);
+        // System.out.println(numberr);
 
-        System.out.println(numberr.contains(70));
+        // System.out.println(numberr.contains(70));
 
-        System.out.println(numberr.get(2));
+        // System.out.println(numberr.get(2));
 
         numberr.remove(3);
         System.out.println(numberr);

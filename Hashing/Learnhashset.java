@@ -10,6 +10,7 @@ public class Learnhashset {
         set.add(20);
         set.add(40);
         set.add(10);
+        set.add(10);
 
         System.out.println(set);
 

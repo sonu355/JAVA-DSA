@@ -1,7 +1,7 @@
 import java.util.HashSet;
 
 public class Hashingchallnege2 {
-    public static int Union(int a[], int b[]){
+    public static int setUnion(int a[], int b[]){
         HashSet <Integer> set = new HashSet<>();
         for(int x : a){
            set.add(x);
@@ -16,7 +16,7 @@ public class Hashingchallnege2 {
     public static void main(String[] args) {
         int[] a = {5, 10, 15, 5};
         int[] b = {10, 15, 4};
-        int result = Union(a, b);
+        int result = setUnion(a, b);
         System.out.println(result);
      
     }

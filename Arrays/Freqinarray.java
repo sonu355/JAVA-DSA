@@ -1,8 +1,6 @@
 public class Freqinarray{
     public static void main(String[] args) {
         int[] arr = new int[]{2, 6, 3, 2, 3, 5};
-        int[] freq = new int[arr.length];
-        int k = 0 ;
         int visited = -1;
         for(int i=0; i < arr.length; i++){
             int count = 1;
@@ -20,5 +18,5 @@ public class Freqinarray{
             
         }
         
-        }
-    }   
+    }
+}   

@@ -2,15 +2,15 @@ import java.util.HashSet;
 
 public class Hashingchallenge3 {
     public static int Intersection(int a[], int b[]){
-       HashSet <Integer> s = new HashSet<>();
+       HashSet <Integer> set = new HashSet<>();
        int count = 0;
          for(int x : a){
-            s.add(x);
+            set.add(x);
          }
         for(int x : b){
-            if(s.contains(x)){
+            if(set.contains(x)){
               count++;
-              s.remove(x);
+              set.remove(x);
             }
         }
         return count;
