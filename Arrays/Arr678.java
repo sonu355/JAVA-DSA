@@ -1,20 +1,20 @@
-public class Arr678{
-    public static void main(String[] args) {
-    int[] arr = new int[] {76,94,25,98};
+public class Arr678 {
+  public static void main(String[] args) {
+    int[] arr = new int[] { 76, 94, 25, 98 };
 
     int value = 989;
     boolean isPresent = false;
-    for(int i=0; i < arr.length; i++){
+    for (int i = 0; i < arr.length; i++) {
       System.out.println(arr[i]);
 
-      if(arr[i] == value){
+      if (arr[i] == value) {
         isPresent = true;
-        break;           
+        break;
       }
     }
-    if (isPresent == true){
+    if (isPresent == true) {
       System.out.println("Present");
-    }else{
+    } else {
       System.out.println("Not Present");
     }
   }
